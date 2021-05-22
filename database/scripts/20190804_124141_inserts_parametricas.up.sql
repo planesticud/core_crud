@@ -81,9 +81,9 @@ INSERT INTO core.tipo_periodo(id,nombre, descripcion, codigo_abreviacion, activo
 INSERT INTO core.tipo_periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (3,'extensión','periodo extensión','extension', true,3, now(), now());
 
 -- inserts core.periodo
-INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'2019-1','primer periodo 2019','2019-1', true,1, now(), now());
-INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden) VALUES (2,'2019-2','segundo periodo 2019','2019-2', true,2);
-INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden) VALUES (3,'2019-3','tercer periodo 2019','2019-3', true,3);
+INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, tipo_periodo_id, fecha_creacion,fecha_modificacion) VALUES (1,'2019-1','primer periodo 2019','2019-1', true,1,1, now(), now());
+INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, tipo_periodo_id) VALUES (2,'2019-2','segundo periodo 2019','2019-2', true,2,1);
+INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, tipo_periodo_id) VALUES (3,'2019-3','tercer periodo 2019','2019-3', true,3),1;
 
 -- inserts core_new.unidad_tiempo
 INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'ANUAL','ANUAL','ANUAL', true,1, now(), now());
