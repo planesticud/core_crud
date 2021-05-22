@@ -98,7 +98,7 @@ INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activ
 
 -- inserts core.concepto_academico
 INSERT INTO core.concepto_academico(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'matrícula','matrícula','MATRICULA', true,1, now(), now());
-INSERT INTO core.concepto_academico(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden) VALUES (2,'inscripción','inscripción','INSCRIPCION', true,2);
+INSERT INTO core.concepto_academico(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (2,'inscripción','inscripción','INSCRIPCION', true,2, now(), now());
 
 -- inserts core.grupo_investigacion
 INSERT INTO core.grupo_investigacion(nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES ('bioingenieria universidad distrital',' ','BIOINGENIERIAUD', true,1, now(), now());
