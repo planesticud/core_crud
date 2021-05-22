@@ -70,10 +70,10 @@ INSERT INTO core.nucleo_basico_conocimiento(id,nombre, area_conocimiento_id, des
 INSERT INTO core.nucleo_basico_conocimiento(id,nombre, area_conocimiento_id, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (58,'SIN CLASIFICAR',9,'', 0,true,58, now(), now());
 
 -- inserts core.tipo_dato_adicional
-INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'numerico',numerico, numerico,true,1, now(), now());
-INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (2,'texto',texto, texto,true,2, now(), now());
-INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (3,'lista',lista, lista,true,3, now(), now());
-INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (4,'fecha',fecha, fecha,true,4, now(), now());
+INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'numerico','numerico', 'numerico',true,1, now(), now());
+INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (2,'texto','texto', 'texto',true,2, now(), now());
+INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (3,'lista','lista', 'lista',true,3, now(), now());
+INSERT INTO core.tipo_dato_adicional(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (4,'fecha','fecha', 'fecha',true,4, now(), now());
 
 -- inserts core.tipo_periodo
 INSERT INTO core.tipo_periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'académico','periodo académico','academico', true,1, now(), now());
