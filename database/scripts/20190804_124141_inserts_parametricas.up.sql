@@ -85,16 +85,16 @@ INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, num
 INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, tipo_periodo_id) VALUES (2,'2019-2','segundo periodo 2019','2019-2', true,2,1);
 INSERT INTO core.periodo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, tipo_periodo_id) VALUES (3,'2019-3','tercer periodo 2019','2019-3', true,3,1);
 
--- inserts core_new.unidad_tiempo
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'ANUAL','ANUAL','ANUAL', true,1, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (2,'BIMENSUAL','BIMENSUAL','BIMENSUAL', true,2, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (3,'CUATRIMENSTRAL','CUATRIMENSTRAL','CUATRIMENSTRAL', true,3, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (4,'MENSUAL','MENSUAL','MENSUAL', true,4, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (5,'PERIODOS','PERIODOS','PERIODOS', true,5, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (6,'SEMESTRAL','SEMESTRAL','SEMESTRAL', true,6, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (7,'SIN DEFINIR','SIN DEFINIR','SIN DEFINIR', true,7, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (8,'TRIMESTRAL','TRIMESTRAL','TRIMESTRAL', true,8, now(), now());
-INSERT INTO core_new.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (9,'POR COHORTE','POR COHORTE','POR COHORTE', true,9, now(), now());
+-- inserts core.unidad_tiempo
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'ANUAL','ANUAL','ANUAL', true,1, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (2,'BIMENSUAL','BIMENSUAL','BIMENSUAL', true,2, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (3,'CUATRIMENSTRAL','CUATRIMENSTRAL','CUATRIMENSTRAL', true,3, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (4,'MENSUAL','MENSUAL','MENSUAL', true,4, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (5,'PERIODOS','PERIODOS','PERIODOS', true,5, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (6,'SEMESTRAL','SEMESTRAL','SEMESTRAL', true,6, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (7,'SIN DEFINIR','SIN DEFINIR','SIN DEFINIR', true,7, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (8,'TRIMESTRAL','TRIMESTRAL','TRIMESTRAL', true,8, now(), now());
+INSERT INTO core.unidad_tiempo(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (9,'POR COHORTE','POR COHORTE','POR COHORTE', true,9, now(), now());
 
 -- inserts core.concepto_academico
 INSERT INTO core.concepto_academico(id,nombre, descripcion, codigo_abreviacion, activo, numero_orden, fecha_creacion,fecha_modificacion) VALUES (1,'matrícula','matrícula','MATRICULA', true,1, now(), now());
