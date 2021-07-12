@@ -32,7 +32,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -47,8 +48,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.AreaConocimiento'
-        "404":
-          description: not found resource
+        "403":
+          description: ""
     post:
       tags:
       - area_conocimiento
@@ -64,8 +65,8 @@ paths:
       responses:
         "201":
           description: '{int} models.AreaConocimiento'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: body is empty
   /area_conocimiento/{id}:
     get:
       tags:
@@ -83,8 +84,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.AreaConocimiento'
-        "404":
-          description: not found resource
+        "403":
+          description: :id is empty
     put:
       tags:
       - area_conocimiento
@@ -107,8 +108,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.AreaConocimiento'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: :id is not int
     delete:
       tags:
       - area_conocimiento
@@ -123,8 +124,8 @@ paths:
       responses:
         "200":
           description: '{string} delete success!'
-        "404":
-          description: not found resource
+        "403":
+          description: id is empty
   /concepto_academico/:
     get:
       tags:
@@ -146,7 +147,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -260,7 +262,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -275,8 +278,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.GrupoInvestigacion'
-        "404":
-          description: not found resource
+        "403":
+          description: ""
     post:
       tags:
       - grupo_investigacion
@@ -292,8 +295,8 @@ paths:
       responses:
         "201":
           description: '{int} models.GrupoInvestigacion'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: body is empty
   /grupo_investigacion/{id}:
     get:
       tags:
@@ -311,8 +314,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.GrupoInvestigacion'
-        "404":
-          description: not found resource
+        "403":
+          description: :id is empty
     put:
       tags:
       - grupo_investigacion
@@ -335,8 +338,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.GrupoInvestigacion'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: :id is not int
     delete:
       tags:
       - grupo_investigacion
@@ -351,8 +354,8 @@ paths:
       responses:
         "200":
           description: '{string} delete success!'
-        "404":
-          description: not found resource
+        "403":
+          description: id is empty
   /linea_investigacion/:
     get:
       tags:
@@ -374,7 +377,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -389,8 +393,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.LineaInvestigacion'
-        "404":
-          description: not found resource
+        "403":
+          description: ""
     post:
       tags:
       - linea_investigacion
@@ -406,8 +410,8 @@ paths:
       responses:
         "201":
           description: '{int} models.LineaInvestigacion'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: body is empty
   /linea_investigacion/{id}:
     get:
       tags:
@@ -425,8 +429,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.LineaInvestigacion'
-        "404":
-          description: not found resource
+        "403":
+          description: :id is empty
     put:
       tags:
       - linea_investigacion
@@ -449,8 +453,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.LineaInvestigacion'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: :id is not int
     delete:
       tags:
       - linea_investigacion
@@ -465,8 +469,8 @@ paths:
       responses:
         "200":
           description: '{string} delete success!'
-        "404":
-          description: not found resource
+        "403":
+          description: id is empty
   /linea_investigacion_grupo_investigacion/:
     get:
       tags:
@@ -488,7 +492,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -503,8 +508,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.LineaInvestigacionGrupoInvestigacion'
-        "404":
-          description: not found resource
+        "403":
+          description: ""
     post:
       tags:
       - linea_investigacion_grupo_investigacion
@@ -520,8 +525,8 @@ paths:
       responses:
         "201":
           description: '{int} models.LineaInvestigacionGrupoInvestigacion'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: body is empty
   /linea_investigacion_grupo_investigacion/{id}:
     get:
       tags:
@@ -539,8 +544,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.LineaInvestigacionGrupoInvestigacion'
-        "404":
-          description: not found resource
+        "403":
+          description: :id is empty
     put:
       tags:
       - linea_investigacion_grupo_investigacion
@@ -563,8 +568,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.LineaInvestigacionGrupoInvestigacion'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: :id is not int
     delete:
       tags:
       - linea_investigacion_grupo_investigacion
@@ -579,8 +584,8 @@ paths:
       responses:
         "200":
           description: '{string} delete success!'
-        "404":
-          description: not found resource
+        "403":
+          description: id is empty
   /nucleo_basico_conocimiento/:
     get:
       tags:
@@ -602,7 +607,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -617,8 +623,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.NucleoBasicoConocimiento'
-        "404":
-          description: not found resource
+        "403":
+          description: ""
     post:
       tags:
       - nucleo_basico_conocimiento
@@ -634,8 +640,8 @@ paths:
       responses:
         "201":
           description: '{int} models.NucleoBasicoConocimiento'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: body is empty
   /nucleo_basico_conocimiento/{id}:
     get:
       tags:
@@ -653,8 +659,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.NucleoBasicoConocimiento'
-        "404":
-          description: not found resource
+        "403":
+          description: :id is empty
     put:
       tags:
       - nucleo_basico_conocimiento
@@ -677,8 +683,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.NucleoBasicoConocimiento'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: :id is not int
     delete:
       tags:
       - nucleo_basico_conocimiento
@@ -693,8 +699,8 @@ paths:
       responses:
         "200":
           description: '{string} delete success!'
-        "404":
-          description: not found resource
+        "403":
+          description: id is empty
   /periodo/:
     get:
       tags:
@@ -716,7 +722,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -830,7 +837,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -845,8 +853,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.TipoDatoAdicional'
-        "404":
-          description: not found resource
+        "403":
+          description: ""
     post:
       tags:
       - tipo_dato_adicional
@@ -862,8 +870,8 @@ paths:
       responses:
         "201":
           description: '{int} models.TipoDatoAdicional'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: body is empty
   /tipo_dato_adicional/{id}:
     get:
       tags:
@@ -881,8 +889,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.TipoDatoAdicional'
-        "404":
-          description: not found resource
+        "403":
+          description: :id is empty
     put:
       tags:
       - tipo_dato_adicional
@@ -905,8 +913,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.TipoDatoAdicional'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: :id is not int
     delete:
       tags:
       - tipo_dato_adicional
@@ -921,8 +929,8 @@ paths:
       responses:
         "200":
           description: '{string} delete success!'
-        "404":
-          description: not found resource
+        "403":
+          description: id is empty
   /tipo_periodo/:
     get:
       tags:
@@ -944,7 +952,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -1058,7 +1067,8 @@ paths:
         type: string
       - in: query
         name: order
-        description: Order corresponding to each sortby field, if single value, apply to all sortby fields. e.g. desc,asc ...
+        description: Order corresponding to each sortby field, if single value, apply
+          to all sortby fields. e.g. desc,asc ...
         type: string
       - in: query
         name: limit
@@ -1073,8 +1083,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.UnidadTiempo'
-        "404":
-          description: not found resource
+        "403":
+          description: ""
     post:
       tags:
       - unidad_tiempo
@@ -1090,8 +1100,8 @@ paths:
       responses:
         "201":
           description: '{int} models.UnidadTiempo'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: body is empty
   /unidad_tiempo/{id}:
     get:
       tags:
@@ -1109,8 +1119,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.UnidadTiempo'
-        "404":
-          description: not found resource
+        "403":
+          description: :id is empty
     put:
       tags:
       - unidad_tiempo
@@ -1133,8 +1143,8 @@ paths:
           description: ""
           schema:
             $ref: '#/definitions/models.UnidadTiempo'
-        "400":
-          description: the request contains incorrect syntax
+        "403":
+          description: :id is not int
     delete:
       tags:
       - unidad_tiempo
@@ -1149,8 +1159,8 @@ paths:
       responses:
         "200":
           description: '{string} delete success!'
-        "404":
-          description: not found resource
+        "403":
+          description: id is empty
 definitions:
   models.AreaConocimiento:
     title: AreaConocimiento

@@ -27,7 +27,7 @@ Definir los valores de las siguientes variables de entorno:
  - `CORE_CRUD__SCHEMA`: Esquema a utilizar en la base de datos
 
 ## Ejemplo
-CORE_CRUD_HTTP_PORT=8102 CORE_CRUD__PGUSER=user CORE_CRUD__PGPASS=password CORE_CRUD__PGURLS=localhost CORE_CRUD__PGDB=bd CORE_CRUD__SCHEMA=schema_new bee run
+CORE_CRUD_HTTP_PORT=8102 CORE_CRUD__PGUSER=postgres CORE_CRUD__PGPASS=changeme CORE_CRUD__PGURLS=localhost CORE_CRUD__PGDB=campus CORE_CRUD__SCHEMA=public bee run
 
 ## Modelo BD
 ![core](https://user-images.githubusercontent.com/14035745/61594707-73fe0100-abb4-11e9-8767-4e30fec6a7c4.png)

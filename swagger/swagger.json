@@ -67,8 +67,8 @@
                             "$ref": "#/definitions/models.AreaConocimiento"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ""
                     }
                 }
             },
@@ -93,8 +93,8 @@
                     "201": {
                         "description": "{int} models.AreaConocimiento"
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": "body is empty"
                     }
                 }
             }
@@ -122,8 +122,8 @@
                             "$ref": "#/definitions/models.AreaConocimiento"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ":id is empty"
                     }
                 }
             },
@@ -158,8 +158,8 @@
                             "$ref": "#/definitions/models.AreaConocimiento"
                         }
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": ":id is not int"
                     }
                 }
             },
@@ -182,8 +182,8 @@
                     "200": {
                         "description": "{string} delete success!"
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": "id is empty"
                     }
                 }
             }
@@ -413,8 +413,8 @@
                             "$ref": "#/definitions/models.GrupoInvestigacion"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ""
                     }
                 }
             },
@@ -439,8 +439,8 @@
                     "201": {
                         "description": "{int} models.GrupoInvestigacion"
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": "body is empty"
                     }
                 }
             }
@@ -468,8 +468,8 @@
                             "$ref": "#/definitions/models.GrupoInvestigacion"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ":id is empty"
                     }
                 }
             },
@@ -504,8 +504,8 @@
                             "$ref": "#/definitions/models.GrupoInvestigacion"
                         }
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": ":id is not int"
                     }
                 }
             },
@@ -528,8 +528,8 @@
                     "200": {
                         "description": "{string} delete success!"
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": "id is empty"
                     }
                 }
             }
@@ -586,8 +586,8 @@
                             "$ref": "#/definitions/models.LineaInvestigacion"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ""
                     }
                 }
             },
@@ -612,8 +612,8 @@
                     "201": {
                         "description": "{int} models.LineaInvestigacion"
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": "body is empty"
                     }
                 }
             }
@@ -641,8 +641,8 @@
                             "$ref": "#/definitions/models.LineaInvestigacion"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ":id is empty"
                     }
                 }
             },
@@ -677,8 +677,8 @@
                             "$ref": "#/definitions/models.LineaInvestigacion"
                         }
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": ":id is not int"
                     }
                 }
             },
@@ -701,8 +701,8 @@
                     "200": {
                         "description": "{string} delete success!"
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": "id is empty"
                     }
                 }
             }
@@ -759,8 +759,8 @@
                             "$ref": "#/definitions/models.LineaInvestigacionGrupoInvestigacion"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ""
                     }
                 }
             },
@@ -785,8 +785,8 @@
                     "201": {
                         "description": "{int} models.LineaInvestigacionGrupoInvestigacion"
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": "body is empty"
                     }
                 }
             }
@@ -814,8 +814,8 @@
                             "$ref": "#/definitions/models.LineaInvestigacionGrupoInvestigacion"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ":id is empty"
                     }
                 }
             },
@@ -850,8 +850,8 @@
                             "$ref": "#/definitions/models.LineaInvestigacionGrupoInvestigacion"
                         }
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": ":id is not int"
                     }
                 }
             },
@@ -874,8 +874,8 @@
                     "200": {
                         "description": "{string} delete success!"
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": "id is empty"
                     }
                 }
             }
@@ -932,8 +932,8 @@
                             "$ref": "#/definitions/models.NucleoBasicoConocimiento"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ""
                     }
                 }
             },
@@ -958,8 +958,8 @@
                     "201": {
                         "description": "{int} models.NucleoBasicoConocimiento"
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": "body is empty"
                     }
                 }
             }
@@ -987,8 +987,8 @@
                             "$ref": "#/definitions/models.NucleoBasicoConocimiento"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ":id is empty"
                     }
                 }
             },
@@ -1023,8 +1023,8 @@
                             "$ref": "#/definitions/models.NucleoBasicoConocimiento"
                         }
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": ":id is not int"
                     }
                 }
             },
@@ -1047,8 +1047,8 @@
                     "200": {
                         "description": "{string} delete success!"
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": "id is empty"
                     }
                 }
             }
@@ -1278,8 +1278,8 @@
                             "$ref": "#/definitions/models.TipoDatoAdicional"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ""
                     }
                 }
             },
@@ -1304,8 +1304,8 @@
                     "201": {
                         "description": "{int} models.TipoDatoAdicional"
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": "body is empty"
                     }
                 }
             }
@@ -1333,8 +1333,8 @@
                             "$ref": "#/definitions/models.TipoDatoAdicional"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ":id is empty"
                     }
                 }
             },
@@ -1369,8 +1369,8 @@
                             "$ref": "#/definitions/models.TipoDatoAdicional"
                         }
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": ":id is not int"
                     }
                 }
             },
@@ -1393,8 +1393,8 @@
                     "200": {
                         "description": "{string} delete success!"
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": "id is empty"
                     }
                 }
             }
@@ -1624,8 +1624,8 @@
                             "$ref": "#/definitions/models.UnidadTiempo"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ""
                     }
                 }
             },
@@ -1650,8 +1650,8 @@
                     "201": {
                         "description": "{int} models.UnidadTiempo"
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": "body is empty"
                     }
                 }
             }
@@ -1679,8 +1679,8 @@
                             "$ref": "#/definitions/models.UnidadTiempo"
                         }
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": ":id is empty"
                     }
                 }
             },
@@ -1715,8 +1715,8 @@
                             "$ref": "#/definitions/models.UnidadTiempo"
                         }
                     },
-                    "400": {
-                        "description": "the request contains incorrect syntax"
+                    "403": {
+                        "description": ":id is not int"
                     }
                 }
             },
@@ -1739,8 +1739,8 @@
                     "200": {
                         "description": "{string} delete success!"
                     },
-                    "404": {
-                        "description": "not found resource"
+                    "403": {
+                        "description": "id is empty"
                     }
                 }
             }
